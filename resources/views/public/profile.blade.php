@@ -86,7 +86,7 @@
     </style>
 </head>
 <body>
-{{--<a href="{{ route('home') }}" class="back"><i class="fas fa-arrow-left"></i> Назад</a>--}}
+<a href="{{ route('home') }}" class="back"><i class="fas fa-arrow-left"></i> Назад</a>
 <div class="container">
     <div class="profile">
         <div class="avatar">
@@ -102,7 +102,7 @@
                 <a href="/posts"><i class="fas fa-newspaper"></i> Посмотреть посты</a>
             </div>
             <div class="link-item">
-{{--                <a href="{{ route('profile.update', auth()->user()) }}"><i class="fas fa-edit"></i> Редактировать профиль</a>--}}
+                <a href="{{ route('profile.update', auth()->user()) }}"><i class="fas fa-edit"></i> Редактировать профиль</a>
             </div>
             <div class="link-item">
                 <a href="{{ route('logout') }}"><i class="fas fa-sign-out-alt"></i> Выход из аккаунта</a>
